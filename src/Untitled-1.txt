@@ -1,15 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Neucha|Montserrat+Alternates|Comfortaa|Ubuntu|Chelsea+Market|Permanent+Marker|VT323|Special+Elite");
 
+  
+  
+  
 
 
+ 
 
 
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
+#root {
+    text-align: center;
+}
 .dropdownMenu { /*menu desplegable de selección*/
     position: absolute;
     right: 10px;
     top: 50px;
     display: inline-block;
-    z-index: 2500;
+    z-index: 1;
 }
 .dropBtn {
      /*ventana desplagable de seleccion*/
@@ -228,7 +240,7 @@ body{
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
-	color: #211218;
+	color: #212112;
 	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
 	background-position: center;
 	background-repeat: repeat;
@@ -254,7 +266,7 @@ body{
 	opacity: 1;
 	transform: translateY(0);
 	padding: 10px 0;
-	box-shadow: 0 10px 10px 0 rgba(133, 135, 136, 0.15);
+	box-shadow: 0 10px 10px 0 rgba(138, 155, 165, 0.15);
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
@@ -274,7 +286,7 @@ body{
 	width: 100%;
 	top: 0;
 	left: 0;
-	z-index: 1;
+	z-index: 15;
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
@@ -317,7 +329,6 @@ body{
 	content: '';
 	z-index: 2;
     transition: all 300ms linear;
-    
 }
 .navbar-light .navbar-toggler-icon:after{
 	top: 8px;
@@ -332,20 +343,19 @@ body{
 	border-color: transparent;
 }
 .nav-link{
-	color: #8d2257ce !important;
+	color: #212121 !important;
 	font-weight: 500;
     transition: all 200ms linear;
 }
 .nav-item:hover .nav-link{
-    color: #47042b !important;
-    text-decoration: none;
+	color: #8167a9 !important;
 }
 .nav-item.active .nav-link{
-	color: rgb(139, 6, 57) !important;
+	color: #777 !important;
 }
 .nav-link {
 	position: relative;
-	padding: 3px; 
+	padding: 5px 0 !important;
 	display: inline-block;
 }
 .nav-item:after{
@@ -375,11 +385,8 @@ body{
 ================================================== */
 
 .bg-light {
-	background-color: rgba(204, 204, 204, 0.322) ; /*color de fondo de menu*/
+	background-color: #fff !important;
     transition: all 200ms linear;
-    font-family: "Montserrat Alternates";
-    font-size: 5.5vh;
-    
 }
 .section {
     position: relative;
@@ -394,12 +401,12 @@ body{
 }
 .absolute-center {
 	position: absolute;
-	top: 25%;
+	top: 50%;
 	left: 0;
 	width: 100%;
-    margin-top: 140px;
+  margin-top: 40px;
 	transform: translateY(-50%);
-	
+	z-index: 20;
 }
 h1{
 	font-size: 48px;
@@ -534,7 +541,7 @@ h1 span:nth-child(14){
 h1 span:nth-child(15){
     transition-delay: 1450ms;
 }
-
+#switch,
 #circle {
 	cursor: pointer;
 	-webkit-transition: all 300ms linear;
@@ -548,7 +555,7 @@ h1 span:nth-child(15){
 	background: #000;
 	position: relative;
 	display: block;
-	margin: 490px auto;
+	margin: 0 auto;
 	text-align: center;
 	opacity: 1;
 	transform: translate(0);
@@ -561,7 +568,7 @@ body.hero-anime #switch{
     transition-delay: 1900ms;
 }
 #circle {     /*Scroll*/
-	position: absolute; /*bolita*/
+	position: absolute;
 	top: -11px;
 	left: -13px;
 	width: 26px;
@@ -612,7 +619,7 @@ body.hero-anime #switch{
 
 .dropdown-item {
 	padding: 3px 15px;
-	color: #363333;
+	color: #212121;
 	border-radius: 2px;
     transition: all 200ms linear;
 }
@@ -733,6 +740,10 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	}
 }
 
+
+
+ 
+  
   
       /*Estos son los estilos que le dan la funcionalidad al menú*/
       /*El checkbox según esté activado o no hará que el menú aparezca o desaparezca*/
@@ -751,7 +762,6 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         position:fixed; /*Fijamos la hamburgues para que se desplace junto con el menú*/
       }
   
-    
       /*Carrousel*/
       #carousel{
         width: 100%;
@@ -760,7 +770,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform-style: preserve-3d;
         animation: rotation 20s infinite linear; 
         top: 55px;
-        z-index: 1500;
+        z-index: 15;
         
         margin: -15px;
     }
@@ -811,5 +821,3 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
             transform: rotateY(360deg);
         }
     }
-
- 
