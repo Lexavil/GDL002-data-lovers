@@ -34,6 +34,10 @@ Historias de usuario
 
     El usuario debe poder filtrar las noticias, y visualizar únicamente las que tienen autor.
         El usuario al hacer click en la opción de "Filtrar noticias por autor", dentro del menú "Filtrar", podrá visualizar las únicamente las noticias que tengan autor.
+        
+ Logo Laba News
+ ![Laba News](https://scontent.fgdl2-1.fna.fbcdn.net/v/t1.15752-9/52708507_1275441222623829_6571540274890145792_n.png?_nc_cat=105&_nc_ht=scontent.fgdl2-1.fna&oh=3f53e9cad5428343c4ba4a2d6b86a4a7&oe=5D1813D8)       
+ 
 
 Prototipo de baja fidelidad
 
