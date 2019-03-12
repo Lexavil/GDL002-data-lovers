@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Gochi+Hand|Neucha|Montserrat+Alternates|Comfortaa|Ubuntu|Chelsea+Market|Permanent+Marker|VT323|Special+Elite");
 
-
-
-
-
 .dropdownMenu { /*menu desplegable de selección*/
     position: absolute;
     right: 10px;
@@ -106,7 +102,7 @@
   
   .news:hover{
     cursor: pointer;
-    box-shadow: 85px 90px 90px 70px rgb(250, 251, 252) inset; /*sombra de imagen al poner cursor*/
+    box-shadow: 85px 90px 90px 70px rgba(154, 154, 155, 0.842) inset; /*sombra de imagen al poner cursor*/
   
   }
   
@@ -755,7 +751,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       /*Carrousel*/
       #carousel{
         width: 100%;
-        height: 20%;
+        height: 25%;
         position: absolute;
         transform-style: preserve-3d;
         animation: rotation 20s infinite linear; 
@@ -795,7 +791,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         cursor: pointer;
         transition: all .5s ease;
         width: 500px;
-        height: 200px; 
+        height: 180px; 
         filter: grayscale(1)
     
     }
